@@ -3,10 +3,10 @@
 
 # Author information - update with your details
 author:
-  - given: Your
-    family: Name
-    institution: Your Institution
-    url: http://example.com
+  - given: YOUR_GIVEN_NAME
+    family: YOUR_FAMILY_NAME
+    institution: YOUR_INSTITUTION
+    url: YOUR_URL
 
 # Directory paths
 macrosdir: macros # Macro directory (optional, or use shared macros)
@@ -54,7 +54,7 @@ potx: custom-reference.potx
 dotx: custom-reference.dotx
 
 # Venue information (update for your course)
-venue: Your Institution Name
+venue: COURSE_VENUE_NAME
 
 # GitHub Pages configuration
 ghub:
