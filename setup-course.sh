@@ -39,15 +39,15 @@ prompt_with_default "GitHub organization/username" "mlatcl" GITHUB_ORG
 echo ""
 echo "Author Information:"
 echo "-------------------"
-prompt_with_default "First name" "Your" AUTHOR_GIVEN
-prompt_with_default "Last name" "Name" AUTHOR_FAMILY
+prompt_with_default "First name" "Author given name" AUTHOR_GIVEN
+prompt_with_default "Last name" "Author family name" AUTHOR_FAMILY
 prompt_with_default "Institution" "Your Institution" INSTITUTION
 prompt_with_default "Personal URL" "http://example.com" AUTHOR_URL
 
 echo ""
 echo "Course Venue:"
 echo "-------------"
-prompt_with_default "Venue" "Your Institution" VENUE
+prompt_with_default "Venue" "Venue for course" VENUE
 
 echo ""
 echo "=========================================="
@@ -100,6 +100,7 @@ FILES=(
     "index.html"
     "lectures.html"
     "practicals.html"
+    "projects.html"
     "README.md"
 )
 
