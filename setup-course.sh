@@ -124,6 +124,11 @@ fi
 # Clean up
 rm "$TMP_SED"
 
+# Ensure all required directories exist
+echo ""
+echo "Creating required directories..."
+mkdir -p _lectures _notebooks _practicals _projects slides/diagrams
+
 echo ""
 echo "=========================================="
 echo "Setup complete!"
