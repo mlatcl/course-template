@@ -4,10 +4,14 @@
 main_nav:
   - label: Overview
     link: /COURSECODE/
-  - label: Resources
-    link: /resources/
-  - label: Teaching
-    link: /teaching/
+  - label: About
+    link: /COURSECODE/about/
+  - label: Lectures
+    link: /COURSECODE/lectures/
+  - label: Practicals
+    link: /COURSECODE/practicals/
+  - label: Assessment
+    link: /COURSECODE/assessment/
   - label: ML@CL Group
     link: /
     submenu_item:

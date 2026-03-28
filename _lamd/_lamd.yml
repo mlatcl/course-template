@@ -38,7 +38,7 @@ ipynb: True # Generate Jupyter notebooks
 reveal: True # Use reveal.js for slides
 
 # Website configuration
-url: "https://mlatcl.github.io/" # the base hostname & protocol for your site
+url: "https://GITHUB_ORG.github.io/" # the base hostname & protocol for your site
 baseurl: COURSECODE/
 talkcss: https://inverseprobability.com/assets/css/talks.css
 people: ../_people/people.yml
@@ -58,7 +58,7 @@ venue: COURSE_VENUE_NAME
 
 # GitHub Pages configuration
 ghub:
-  - organization: mlatcl # Your GitHub username or organization
+  - organization: GITHUB_ORG # Your GitHub username or organization
     repository: COURSECODE # Repository name
     branch: gh-pages # Branch for GitHub Pages
     directory: _lamd # Directory containing source files
