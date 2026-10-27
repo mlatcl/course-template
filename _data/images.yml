@@ -1,0 +1,5 @@
+# Theme reads site.data.images from this file (not _data/data.yml).
+# Course figures are published under slides/diagrams/.
+directory: slides/diagrams
+# Optional fallback portrait for people layouts. Place the file in directory.
+person_placeholder: person-placeholder.jpg
