@@ -28,6 +28,8 @@ This will interactively prompt you for:
 Edit these files and replace placeholders:
 - `_config.yml` - Replace `COURSECODE`, `COURSETITLE`, `COURSE_DESCRIPTION`
 - `_lamd/_lamd.yml` - Replace `COURSECODE` and author information
+- `_data/nav.yml` - Replace `COURSECODE` in course page links
+- `_data/images.yml` - Confirm `directory: slides/diagrams`
 - `index.html` - Update course description
 - `_people/people.yml` - Add your information
 
@@ -97,8 +99,8 @@ Check that `baseurl` in `_config.yml` matches your repository name.
 
 1. Review `README.md` for detailed documentation
 2. Add your lecture content in `_lamd/`
-3. Customize navigation in `_data/nav.yml`
-4. Add diagrams to `slides/diagrams/`
+3. Customize course navigation in `_data/nav.yml` (Overview, About, Lectures, Practicals, Assessment)
+4. Add diagrams to `slides/diagrams/` (see `_data/images.yml`)
 
 ## Getting Help
 

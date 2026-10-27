@@ -84,9 +84,12 @@ git push -u origin main
 ```
 course-template/
 ├── _config.yml              # Jekyll configuration
-├── _data/                   # Site data (navigation, etc.)
-│   ├── nav.yml             # Navigation menu configuration
-│   └── people.yml          # Course instructors/TAs
+├── _data/                   # Site data consumed by mlatcl/jekyll-theme
+│   ├── nav.yml             # Course navigation (not group-site Resources/Teaching)
+│   ├── site.yml            # Logos, contact, footer
+│   └── images.yml          # site.data.images (directory + person_placeholder)
+├── _people/
+│   └── people.yml          # Course instructors/TAs (LaMD, not Jekyll _data)
 ├── _lamd/                   # Lecture source files (LaMD format)
 │   ├── _lamd.yml           # LaMD configuration
 │   ├── sample-lecture.md   # Sample lecture
@@ -95,7 +98,6 @@ course-template/
 ├── _notebooks/              # Compiled Jupyter notebooks (generated)
 ├── _practicals/             # Compiled practical exercises (generated)
 ├── _projects/               # Student project descriptions
-├── _people/                 # People information
 ├── slides/                  # Compiled reveal.js slides (generated)
 │   └── diagrams/           # Images and diagrams for slides
 ├── Gemfile                  # Ruby dependencies
@@ -171,7 +173,15 @@ LaMD configuration. Key settings:
 
 ### `_data/nav.yml`
 
-Navigation menu configuration. Customize the main navigation, footer, and top bar.
+Course navigation: Overview, About, Lectures, Practicals, Assessment, plus the ML@CL Group submenu. Do not add Resources or Teaching — those pages live on the group site. Rename Practicals to Worksheets if that matches the module language.
+
+### `_data/images.yml`
+
+Jekyll exposes this file as `site.data.images`, which the theme uses for figure paths. `directory` is `slides/diagrams`. People records live in `_people/people.yml`, not here.
+
+### `_data/site.yml`
+
+Logos, contact details, and footer images. Shared across ML@CL course sites.
 
 ## VibeSafe Project Management (Optional)
 

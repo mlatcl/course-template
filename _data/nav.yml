@@ -1,5 +1,8 @@
-# Navigation Configuration
-# Customize this for your course
+# Course navigation.
+# Canonical course pages: Overview, About, Lectures, Practicals, Assessment.
+# Do not add Resources or Teaching — those are ML@CL group-site pages
+# (mlatcl.github.io), linked from the ML@CL Group submenu.
+# Rename Practicals to Worksheets if that matches the module language.
 
 main_nav:
   - label: Overview
